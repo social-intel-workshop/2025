@@ -1,1 +1,908 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HAI 2025: Workshop on Socially Aware and Cooperative Intelligent Systems</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <!--div id="year-header">
+        <ul>
+            <li><a href="/2025/">2025</a></li>
+        </ul>
+    </div-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
+        <!-- <div class="navbar-title"><a href="#">ICRA 2025</a></div> -->
+        <a class="navbar-title d-none d-md-block" href="#">
+            <img src="images/logo_icra.png" height="60">
+        </a>
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#submissions">Call for Papers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#review">Review Timeline</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#schedule">Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#speakers">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#motivation">Motivation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#organizers">Organizers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <a class="navbar-right-log d-none d-xl-block" href="https://www.jp.honda-ri.com/en/" target="_blank">
+            <img src="images/hrijp_log.png" width="140" height="50">
+        </a>
+    </nav>
+    <div class="container" style="max-width: 960px; margin-top: 120px;">
+        <div class="jumbotron">
+            <h1 class="anchor">Workshop on Socially Aware and Cooperative Intelligent Systems</h1>
+            <div class="row">
+                <div class="col-lg-6 col-xs-9">
+                    <img src="images/banner_icra.png" class="d-none d-lg-block"
+                        style="width:95%; margin-top: 20px; margin-left: 20px; max-height: 200px;" alt="banner_1">
+                    <!--img src="images/banner.png" class="d-none d-md-block d-lg-none d-xl-none"
+                        style="margin-left: 20px; width: 95%;"-->
+                    <div class="banner-info  shadow">
+                        <div class="info-entry">
+                            <div class="row">
+                                <div class="col-md-1" style="margin-right: 8px;">
+                                    <i class="fa fa-location-dot" style="font-size: 2.7rem; margin-top: 10px;"></i>
+                                </div>
+                                <div class="col-md-9" style="margin-top: auto; margin-bottom: auto;">
+                                    Yolohama, Japan
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 info-entry">
+                                <i class="fa fa-calendar">&nbsp;</i>
+                                10-13 Nov
+                            </div>
+                            <!--div class="col-md-6 info-entry">
+                                <i class="fa fa-clock">&nbsp;</i>
+                                08:30 to 12:30
+                            </div-->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/banner_art.png" class="d-none d-lg-block" alt="banner_2">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="topics"></a>
+                <h2 class="h1-bullet">About the Workshop</h2>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-xs-12">
+                <!--p style="text-indent: 50px;">This workshop theme centers on the development of AI agents and systems
+                    that are capable of understanding, adapting to, and reacting to collaborate with humans in
+                    compliance with the social norms. These systems leverage insights from social psychology, cognitive
+                    science, robotics, and AI to interpret social cues, anticipate the needs of others, and coordinate
+                    actions effectively within dynamic and often unpredictable contexts. We focus on embedding social
+                    awareness into AI systems, leading to Cooperative Intelligence which focuses on building trust and
+                    relationship between humans and intelligent systems, instead of focusing on functions to replace
+                    humans. This paradigm is expected to contribute positively to a hybrid society, in which humans live
+                    together with ubiquitous intelligent agents.
+                </p-->
+                <!--ul class="topic-list">
+                    <li>Human internal state inference, e.g., cognitive, emotional, intention models.</li>
+                    <li>Recognition of nonverbal cues, e.g., gaze and attention, body language, para-language.</li>
+                    <li>Multi-modal sensing fusion for scene perception.</li>
+                    <li>Nonverbal behavior generation for robots/agents, e.g., gaze salience, gesture.</li>
+                    <li>Synchronization of nonverbal and verbal behavior</li>
+                    <li>Learning algorithms, e.g., cross-embodiment and
+                        cross-context
+                        learning, imitation learning.</li>
+                    <li>Generative and adversarial algorithms to enhance human-robot interaction, e.g., LLMs,
+                        diffusion models, VLMs.</li>
+                    <li>Empathetic interaction between humans and intelligent systems.</li>
+                    <li>Robust sensing of facial and body key points.</li>
+                    <li>Social interaction dynamics modeling, e.g., harmony level, engagements.</li>
+                    <li>Personalization of intelligent systems from nonverbal cues and trust evaluation.</li>
+                    <li>Applications of cooperative intelligence in the wild.</li>
+                </ul-->
+                <p class="mb-0"><b>Keywords:</b> "Socially aware AI, cooperative intelligence, group interaction, social
+                    norm, nonverbal cues"
+                </p>
+                <!--p class="mb-0"><b>Secondary subject:</b> "Human-Robot cooperative intelligence", "Nonverbal cues
+                    recognition from audiovisual", "Human internal state inference from multi-modality", "Vision
+                    applications and systems", "Human-Object interaction and scene understanding"
+                </p-->
+            </div>
+        </div>
+
+        <div class="row mb-4 sponsors-section">
+            <div class="col-xl-3 mb-4">
+                <h2 class="h1-bullet">Sponsors</h2>
+                <img src="images/hrijp_log.png" class="spons-logo">
+                <img src="images/coro_logo.png" class="spons-logo">
+            </div>
+            <div class="col-xl-1 mb-4"></div>
+            <div class="col-xl-8 mb-4">
+                <h2 class="h1-bullet">Organizers</h2>
+                <div class="row">
+                    <img src="images/tu_delf.jpg" class="org-lg-logo">
+                    <img src="images/eth_zurich.png" style="width: 200px !important; margin-top: 35px;"
+                        class="org-lg-logo">
+                </div>
+                <div class="row" style="margin-top: 20px;">
+                    <img src="images/kth_royal.png" class="org-logo">
+                    <img src="images/u-tokyo_ins.png" class="org-logo">
+                    <img src="images/u-tokyo_sci.png" class="org-logo" style="width: 120px;">
+                    <img src="images/u-stuttgart.png" class="org-logo">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="news"></a>
+                <h2 class="h1-bullet">News updates</h2>
+            </div>
+        </div>
+
+        <div class="col-xs-12">
+            <div class="news-table">
+                <table class="table">
+                    <tbody>
+                        <!--tr>
+                            <td>Sept 25th</td>
+                            <td>Workshop webpage was launched.</td>
+                        </tr>
+                        <tr>
+                            <td>Jan 20th</td>
+                            <td>Submission can be made via Easychair.</td>
+                        </tr>
+                        <tr>
+                            <td>May 24th</td>
+                            <td>The submission deadline of Advanced Robotics Special Issue on
+                                <a href="Nonverbal Cues for Human-Robot Cooperative Intelligence">Nonverbal Cues
+                                    for Human-Robot Cooperative Intelligence</a> has been extended to 30 June 2025!
+                                (FINAL extension)
+                            </td>
+                        </tr-->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="submissions"></a>
+                <h2 class="h1-bullet">Call for Papers</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="review"></a>
+                <h4 class="sub-header">Submission Guidelines</h4>
+            </div>
+        </div>
+        <!-- div class="col-xs-12 content">
+            <p>We invite authors to submit unpublished papers (2-4 pages excluding references) to our workshop, to be
+                presented at a workshop session upon acceptance.
+                Submissions will undergo a peer-review process by the workshop's program committee and accepted papers
+                will be invited
+                to present their works at the workshop (<a href="#presentation">see presentation format</a>). </p>
+        </div-->
+
+        <div class="row" style="margin-bottom: 10px;">
+            <div class="col-md-1"></div>
+            <div class="col-md-1 d-none d-md-block">
+                <i class="fa-solid fa-quote-left awards-quote"></i>
+            </div>
+            <div class="col-md-8" style="text-align: center;">
+                <b>We are pleased to announce that award will be given to the best paper accepted by this workshop.</b>
+            </div>
+            <div class="col-md-1 d-none d-md-block">
+                <i class="fa-solid fa-quote-right awards-quote"></i>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="review"></a>
+                <h4 class="sub-header">Important Dates</h4>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-xs-12">
+                <ul class="timeline">
+                    <li>
+                        <span class="date-label"><s>Mar 10, 2025</s> &rarr; April 4, 2025</span>
+                        <p>Workshop paper submission deadline</p>
+                    </li>
+                    <!-- li>
+                        <span class="date-label"><s>Mar 31, 2025</s> &rarr; April 25, 2025</span>
+                        <p>Workshop paper reviews deadline</p>
+                    </li>
+                    <li>
+                        <span class="date-label"><s>April 10, 2025</s> &rarr; April 25, 2025</span>
+                        <p>Notification to authors</p>
+                    </li>
+                    <li>
+                        <span class="date-label"><s>April 24, 2025</s> &rarr; May 9, 2025</span>
+                        <p>Camera-ready deadline</p>
+                    </li>
+                    <li>
+                        <span class="date-label"><s>May 23, 2025</s></span>
+                        <p>Workshop day</p>
+                        <img src="images/2025_workshop_group_photo.jpg" height="500px" />
+                    </li-->
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="review"></a>
+                <h4 class="sub-header">Submission Instructions</h4>
+            </div>
+        </div>
+        <!-- div class="col-xs-12" style="margin-bottom: 20px">
+            Please use the IEEE conferences paper format to write your manuscript.
+            <ul>
+                <li>LaTex and MS Word template: <a target="_blank"
+                        href="https://www.ieee.org/conferences/publishing/templates.html">https://www.ieee.org/conferences/publishing/templates.html</a>
+                </li>
+            </ul>
+            Please submit your paper electronically through the workshop's EasyChair submission system.
+            <ul>
+                <li>Link to EasyChair submission system: <a target="_blank"
+                        href="https://easychair.org/my/conference?conf=icra2025workshop">https://easychair.org/my/conference?conf=icra2025workshop</a>
+                </li>
+            </ul>
+        </div-->
+        <!-- div class="col-xs-12">
+        <div class="submition-section">
+            <a target="_blank" href="https://easychair.org/my/conference?conf=iros2024workshoponno">Submit papers on EasyChair</a>
+        </div>
+    </div -->
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="presentation"></a>
+                <h4 class="sub-header">Presentation Format</h4>
+            </div>
+        </div>
+        <!--div class="col-xs-12">
+            Accepted papers should be presented in three-way presentation approach to foster active participation
+            <ul class="topic-list">
+                <li>Spotlight talks (5 mins talk, Q&A in the poster session) </li>
+                <li>In-person A0 posters for in-depth discussions</li>
+                <li>Short pre-recorded videos (about 2 minutes) to be uploaded on the workshop webpage</li>
+            </ul>
+        </div-->
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="pub_format"></a>
+                <h4 class="sub-header">Publication Format</h4>
+            </div>
+        </div>
+        <!--div class="col-xs-12">
+            Authors are recommended to archive their papers and inform workshop organizers once this procedure is
+            completed. Accepted papers which have been archived will be hosted on the workshop webpage. <br>
+            <ul>
+                <li>Link to arXiv: <a href="https://info.arxiv.org/help/submit/index.html" target="_blank">
+                        https://info.arxiv.org/help/submit/index.html</a>
+                </li>
+            </ul>
+            As with the previous IROS2024 workshop, extensions of the papers presented at this ICRA2025 workshop will be
+            invited to submit to a special issue journal to-be-announced at a later date.
+        </div-->
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="schedule"></a>
+                <h2 class="h1-bullet">Program</h2>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-xs-12">
+                <p>We plan a full-day event for 8 hours, including oral and poster presentations of accepted/invited
+                    papers,
+                    talks by FOUR invited speakers, TWO interactive sessions including a demonstration and a forum
+                    discussion. For participants who could not attend in person, we will disseminate the papers and
+                    pre-recorded videos on our workshop page, which also consists of a comment section for Q&A.</p>
+                <ul class="schelude">
+                    <li>
+                        <span class="time-bg">08:30</span>
+                        <span class="ribbon">08:40</span>
+                        <span class="schelude-item-content">Welcome and opening remarks (10 mins)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">08:40</span>
+                        <span class="ribbon">09:25</span>
+                        <span class="schelude-item-content"><a href="#talk1">Invited talk I</a> (45 mins, including
+                            Q&A)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">09:25</span>
+                        <span class="ribbon">10:21</span>
+                        <span class="schelude-item-content"><a href="#flash-talks">Flash talks I: 7 papers</a> (8 mins
+                            each)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">10:21</span>
+                        <span class="ribbon">10:55</span>
+                        <span class="schelude-item-content">Coffee break and poster session I (34 mins)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">10:55</span>
+                        <span class="ribbon">11:40</span>
+                        <span class="schelude-item-content"><a href="#talk2">Invited talk II</a>(45 mins, including
+                            Q&A)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">11:40</span>
+                        <span class="ribbon">12:30</span>
+                        <span class="schelude-item-content">Forum (50 mins)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">13:30</span>
+                        <span class="ribbon">14:15</span>
+                        <span class="schelude-item-content"><a href="#talk3">Invited talk III</a> (45 mins, including
+                            Q&A)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">14:15</span>
+                        <span class="ribbon">15:11</span>
+                        <span class="schelude-item-content"><a href="#flash-talks">Flash talks II: 7 papers</a> (8
+                            mins each)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">15:11</span>
+                        <span class="ribbon">15:45</span>
+                        <span class="schelude-item-content">Coffee break and poster session II (34 mins)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">15:45</span>
+                        <span class="ribbon">16:35</span>
+                        <span class="schelude-item-content">Group interaction with an agent (50 mins)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">16:35</span>
+                        <span class="ribbon">17:20</span>
+                        <span class="schelude-item-content"><a href="#talk4">Invited talk IV</a>(45 mins, including
+                            Q&A)</span>
+                    </li>
+                    <li>
+                        <span class="time-bg">17:20</span>
+                        <span class="ribbon">17:30</span>
+                        <span class="schelude-item-content">Closing and awards ceremony (10 mins)</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="speakers"></a>
+                <h2 class="h1-bullet">Invited Speakers</h2>
+            </div>
+        </div>
+        <div class="row mb-4 speaker-row">
+            <div class="col-xs-12">
+                <p>
+                    We have confirmed the attendance of FOUR speakers:
+                </p>
+            </div>
+            <div class="row mb-4">
+                <div class="col-xl-3 mb-4" id="talk1">
+                    <img src="images/speaker_1.jpg" class="img-speaker shadow" alt="img">
+                </div>
+                <div class="col-xl-9 mb-4">
+                    <h4>Invited Talk I</h4>
+                    <h3>Is This a Person Speaking? Unintended Side Effects of Simulated Humanness in Conversational AI
+                    </h3>
+                    <div><span>Martina Mara, </span> Johannes Kepler Universität Linz, Austria.</div>
+                    <div>Link to website: <!--a
+                            href="https://ogata-lab.jp/member/ogata.html">https://ogata-lab.jp/member/ogata.html</a-->
+                    </div>
+                    <div class="speaker-content">
+                        <b>Abstract</b>
+                        <!--p>
+                            Generative AI based on foundation models has become a powerful tool for enabling robots to
+                            perform diverse and complex tasks. However, the large-scale nature of these models presents
+                            challenges for deployment on autonomous robots with limited computational resources. This
+                            presentation will discuss the importance of predictive inference (active inference) during
+                            task execution, particularly in the context of deploying generative AI on edge devices for
+                            robots. We will explore how this approach reduces reliance on large-scale training data and
+                            minimizes memory usage, making AI-powered assistance more feasible in real-world settings.
+                            Furthermore, we will introduce a developmental robotics perspective, focusing on
+                            constructing foundation models that do not rely on vast datasets but instead leverage
+                            continuous, adaptive learning.
+                        </p-->
+                        <b>Biography</b>
+                        <!-- p>
+                            Tetsuya Ogata received the B.S., M.S., and D.E.
+                            degrees in mechanical engineering fromWaseda University, Tokyo, Japan, in 1993, 1995, and
+                            2000, respectively.
+                            He was a Research Associate with Waseda University from 1999 to 2001.
+                            From 2001 to 2003, he wasa Research Scientist with the RIKEN Brain Science Institute,
+                            Saitama, Japan.
+                            From 2003to 2012, he was an Associate Professor at the Graduate School of Informatics, Kyoto
+                            University, Kyoto, Japan.
+                            Since 2012, he has been a Professor with the Faculty of Science andEngineering, at Waseda
+                            University.
+                            From 2009 to 2015, he was a JST (Japan Science andTechnology Agency) PREST Researcher.
+                            Since 2017, he is a Joint-appointed Fellow withthe Artificial Intelligence Research Center,
+                            National Institute of Advanced Industrial Science and Technology, Tokyo.
+                            He served as director of the Robotics Society of Japan (RSJ)from 2014 to 2015 and of the
+                            Japanese Society of Artificial Intelligence (JSAI) from 2016to 2018.
+                            He is currently a member of the director board of the Japan Deep Learning Asso-ciation
+                            (JDLA) since 2017, and a director of the Institute of AI and Robotics, at WasedaUniversity
+                            since 2020.
+                            His current research interests include deep learning for robot motioncontrol, human–robot
+                            interaction, and dynamics of human–robot mutual adaptation.
+                        </p-->
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-xl-3 mb-4" id="talk2">
+                    <img src="images/speaker_2.png" class="img-speaker shadow" alt="img">
+                </div>
+                <div class="col-xl-9 mb-4">
+                    <h4>Invited Talk II</h4>
+                    <h3>Constructing Human-Aware AI for Integrated Information processing</h3>
+                    <div><span>Tim Schrills, </span> University of Lübeck, Germany.</div>
+                    <div>Link to website:
+                        <!--a
+                            href="https://cpsc.yale.edu/people/marynel-vazquez">https://cpsc.yale.edu/people/marynel-vazquez</a-->
+                    </div>
+                    <div class="speaker-content">
+                        <b>Abstract</b>
+                        <!-- p>Many real-world applications require that robots engage appropriately in social interactions
+                            with small groups of people. For example, a robot that serves as a tour guide may approach a
+                            group of people in a museum to explain an artwork, or an educational robot may help a pair
+                            of people practice a language by encouraging them to talk to each other. In this talk, I
+                            will discuss lessons that we have learned over the last few years as we investigated ways to
+                            enable robots to reason about social signals in these small group interactions. In
+                            particular, I will discuss graph abstractions for representing social contexts, and
+                            data-driven models that leverage the relational structure of interaction data to interpret
+                            and generate social behavior in group human-robot interactions. Some of the work that I will
+                            be presenting is a collaboration with Sarah Gillet and Iolanda Leite at KTH.
+                        </p -->
+                        <b>Biography</b>
+                        <!-- p>
+                            Marynel Vázquez is an Assistant Professor in Yale’s Computer Science Department, where she
+                            leads the Interactive Machines Group. Her research focuses on advancing multi-party
+                            human-robot interaction, both by studying social group phenomena and developing perception
+                            and decision making algorithms that enable autonomous robot behavior. Marynel received her
+                            bachelor's degree in Computer Engineering from Universidad Simón Bolívar in 2008, and
+                            obtained her M.S. and Ph.D. in Robotics from Carnegie Mellon University in 2013 and 2017,
+                            respectively. Before joining Yale, she was a collaborator of Disney Research and a
+                            Post-Doctoral Scholar at the Stanford Vision & Learning Lab. Marynel received a 2024 AFOSR
+                            YIP Award, a 2022 NSF CAREER Award, two Amazon Research Awards, and a Google Research
+                            Scholar award. Her work has been recognized with best paper awards at HRI 2023 and RO-MAN
+                            2022 as well as nominations for paper awards at HRI 2021, IROS 2018, and RO-MAN 2016.
+                        </p -->
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-xl-3 mb-4" id="talk3">
+                    <img src="images/speaker_3.jpg" class="img-speaker shadow" alt="img">
+                </div>
+                <div class="col-xl-9 mb-4">
+                    <h4>Invited Talk III</h4>
+                    <h3>title</h3>
+                    <div><span>name, </span> affiliation.</div>
+                    <div>Link to website: <!--a
+                            href="https://faculty.cc.gatech.edu/~sha9/">https://faculty.cc.gatech.edu/~sha9/</a-->
+                    </div>
+                    <div class="speaker-content">
+                        <b>Abstract</b>
+                        <!--p>
+                            Intelligent robot companions have the potential to improve the quality of human life
+                            significantly by changing how we live, work, and play. While recent advances in software and
+                            hardware opened a new horizon of robotics, state-of-the-art robots are yet far from being
+                            blended into our daily lives due to the lack of human-level scene understanding, motion
+                            control, safety, and rich interactions. I envision legged robots as intelligent machines
+                            beyond simple walking platforms, which can execute a variety of real-world motor tasks in
+                            human environments, such as home arrangements, last-mile delivery, and assistive tasks for
+                            disabled people. In this talk, I will discuss relevant multi-disciplinary research topics,
+                            particularly focusing on how we can extend deep reinforcement learning algorithms to learn
+                            more expressive motion controllers for complex robotic creatures.
+                        </p-->
+                        <b>Biography</b>
+                        <!-- p>
+                            Sehoon Ha is currently an assistant professor at the Georgia Institute of Technology. Before
+                            joining Georgia Tech, he was a research scientist at Google and Disney Research Pittsburgh.
+                            He received his Ph.D. degree in Computer Science from the Georgia Institute of Technology.
+                            His research interests lie at the intersection between computer graphics and robotics,
+                            including physics-based animation, deep reinforcement learning, and computational robot
+                            design. He is a recipient of the NSF CAREER Award. His work has been published at top-tier
+                            venues including ACM Transactions on Graphics, IEEE Transactions on Robotics, and
+                            International Journal of Robotics Research, nominated as the best conference paper (Top 3)
+                            in Robotics: Science and Systems, and featured in the popular media press such as IEEE
+                            Spectrum, MIT Technology Review, PBS News Hours, and Wired.
+                        </p-->
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-xl-3 mb-4" id="talk4">
+                    <img src="images/speaker_4.jpg" class="img-speaker shadow" alt="img">
+                </div>
+                <div class="col-xl-9 mb-4">
+                    <h4>Invited Talk IV</h4>
+                    <h3>title</h3>
+                    <div><span>name, </span> affiliation.</div>
+                    <div>Link to website:
+                        <!-- a
+                            href="https://researchmap.jp/inamura/?lang=english">https://researchmap.jp/inamura/?lang=english</a-->
+                    </div>
+                    <div class="speaker-content">
+                        <b>Abstract</b>
+                        <!--p>
+                            The development of intelligent assistive robots for physical support and rehabilitation in
+                            nursing care is advancing rapidly. While traditional research has focused on optimizing
+                            physical assistance and improving motor performance, the integration of cognitive and
+                            psychological support remains underexplored. Conventionally, addressing users’ emotional and
+                            cognitive needs has been the role of physical therapists and healthcare professionals.
+                            However, next-generation assistive AI must seamlessly combine physical and mental support to
+                            empower users more holistically. This talk explores how assistive robots can enhance not
+                            only users’ motor performance but also their self-efficacy—the belief in their ability to
+                            perform tasks independently. By dynamically adjusting control parameters to influence the
+                            sense of agency and leveraging virtual reality to create tailored success experiences,
+                            assistive systems can foster greater confidence and autonomy. Additionally, I will discuss
+                            how virtual reality and digital twin technologies provide a scalable framework for
+                            optimizing human-robot collaboration, paving the way for more adaptive and psychologically
+                            aware assistive solutions.
+                        </p-->
+                        <b>Biography</b>
+                        <!-- p>
+                            Tetsunari Inamura received the B.E., M.E., and Ph.D. degrees from the University of Tokyo,
+                            Japan, in 1995, 1997, and 2000, respectively in the realization of a human-robot interaction
+                            system for personal robots.
+                            He was a Researcher of the CREST Program, LetterJapanese Science and Technology Cooperation,
+                            from 2000 to 2003, and then joined the Department of Mechano-Informatics, School of
+                            Information Science and Technology, University of Tokyo, as a Lecturer, from 2003 to 2006.
+                            He was an Associate Professor with the Principles of Informatics Research Division,National
+                            Institute of Informatics, and an Associate Professor with the Department of Informatics,
+                            School of Multidisciplinary Sciences, The Graduate University for Advanced Studies,
+                            SOKENDAI, Japan, from 2006 to 2023.
+                            He is a professor at Advanced Intelligence and Robotics Research Center, Brain Science
+                            Institute, Tamagawa University, Japan.
+                            His research interests are learning from human demonstration, symbol emergence on social
+                            robots, quality evaluation of human-robot interaction, human-robot interaction using virtual
+                            reality, affective computing for assistive robots, etc.
+                        </p-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="flash-talks"></a>
+                <h4 class="sub-header">Flash talks</h4>
+            </div>
+            <div id="flash-talk-1" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:25</span>
+                    <span class="sub-ribbon">09:33</span>
+                </div>
+                <span>title</span>
+                <span>members</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/10/10_M3PT_Transformer.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/10/10_m3pt_video.webm">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/10/m3pt_icra_workshop_poster.pdf">poster</a>
+                </div>
+            </div>
+            <!-- div id="flash-talk-2" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:18</span>
+                    <span class="sub-ribbon">09:23</span>
+                </div>
+                <span>Legged Robot Agility Guided by Human Gesture</span>
+                <span>Taerim Yoon; Dongho Kang; Jin Cheng; Minsung Ahn; Stelian Coros and Sungjoon Choi</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/11/11_Interactive_Parkour_workshop_final.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/11/11_Parkour_1080.mp4">video</a>
+                </div>
+            </div>
+            <div id="flash-talk-3" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:23</span>
+                    <span class="sub-ribbon">09:28</span>
+                </div>
+                <span>A Multimodal Self-supervised AI Framework for Monitoring Challenge Behavior Risks in Children with
+                    ASD</span>
+                <span>Zhenhao Zhao; Eunsun Chung; Kyoug-Mee Chung; Michelle Crawford; Chung Hyuk Park</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/12/12_ICRA_WorkShop_camera_ready.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/12/12_video_presentation.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/12/A0 Poster.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-4" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:28</span>
+                    <span class="sub-ribbon">09:33</span>
+                </div>
+                <span>Empathetic engagement drives nonverbal interactions between humans and a small-scale robot</span>
+                <span>Jude Fogarty; Ifeoma Nwogu; Ryan St. Pierre</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/13/13_ICRA_2025_Final.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/13/13_ICRA_2025.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/13/ICRA_Poster_Final.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-5" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:33</span>
+                    <span class="sub-ribbon">09:38</span>
+                </div>
+                <span>Towards Embedding Dynamic Personas in Interactive Robots: Masquerading Animated Social Kinematic
+                    (MASK)</span>
+                <span>Jeongeun Park; Taemoon Jeong; Hyeonseong Kim; Taehyun Byun; Seungyoun Shin; Keunjun Choi; Jaewoon
+                    Kwon; Taeyoon Lee; Matthew Pan; Sungjoon Choi</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer" href="./resources/mask/final.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/mask/mask_2min_presentation.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/mask/poster.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-6" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:38</span>
+                    <span class="sub-ribbon">09:43</span>
+                </div>
+                <span>GazeHTA: End-to-end Gaze Target Detection with Head-Target Association</span>
+                <span>Zhi-Yi Lin, Jouh Yeong Chew, Jan van Gemert, Xucong Zhang</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/gazeHTA/2404.10718v3.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/gazeHTA/GazeHTA_supplementary.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/gazeHTA/GazeHTA_poster.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-7" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:43</span>
+                    <span class="sub-ribbon">09:48</span>
+                </div>
+                <span>Implicit Behavioral Cues for Enhancing Trust and Comfort in Robot Social Navigation</span>
+                <span>Yi Lian, J. Taery Kim, Sehoon Ha</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/implicit/9_Implicit_Behavioral_Cues_for.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/implicit/ICRA 2025 Non-Verbal Cue Workshop Video.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/implicit/implicit_behavioral_cues-poster.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-8" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:48</span>
+                    <span class="sub-ribbon">09:53</span>
+                </div>
+                <span>Context-aware collaborative pushing of heavy objects using skeleton-based intention
+                    prediction</span>
+                <span>Gokhan Solak, Gustavo J. G. Lahr, Idil Ozdamar, Arash Ajoudani</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/intention/solak2025context.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/intention/humanoids24-video-compressed.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/intention/poster-icra-gokhan.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-9" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:53</span>
+                    <span class="sub-ribbon">09:58</span>
+                </div>
+                <span>Let Me Help You! Neuro-Symbolic Short-Context Action Anticipation</span>
+                <span>Sarthak Bhagat, Samuel Li, Joseph Campbell, Yaqi Xie, Katia Sycara, Simon Stepputtis</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/anticipation/RAL_2024.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/anticipation/RAL-video-ICRA.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/anticipation/ICRA25-Poster-Sarthak-final.pdf">poster</a>
+                </div>
+            </div>
+            <div id="flash-talk-10" class="poster">
+                <div>
+                    <span class="sub-time-bg">09:58</span>
+                    <span class="sub-ribbon">10:03</span>
+                </div>
+                <span>COLLAGE: Collaborative Human-Agent Interaction Generation using Hierarchical Latent Diffusion and
+                    Language Models</span>
+                <span>Divyanshu Daiya; Damon Conover; Aniket Bera</span>
+                <div class="btn-group btn-group-xs" role="group">
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/collage/ICRA25_4055_Final.pdf">PDF</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/collage/COLLAGE_workshop_video.mp4">video</a>
+                    <a class="btn" target="_blank" rel="noopener noreferrer"
+                        href="./resources/collage/COLLAGE_ICRA_poster.pdf">poster</a>
+                </div>
+            </div-->
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="motivation"></a>
+                <h2 class="h1-bullet">Motivation and Background</h2>
+            </div>
+        </div>
+
+        <!--div class="row">
+            <div class="col-xs-12">
+                <p style="text-indent: 50px;">Humans can perceive social cues and the interaction context of another
+                    human to infer
+                    the internal states including cognitive and emotional states, empathy, and intention. This
+                    unique ability to infer internal states leads to effective social interaction between humans
+                    desirable in many intelligent systems such as collaborative and social robots, and humanmachine
+                    interaction systems. However, it is challenging for machines to perceive human
+                    states under noisy real-world settings, which are usually measured by noninvasive sensors.
+                    Recent works investigating the potential solutions for the estimation of human states under
+                    controlled
+                    conditions using facial features with the off-the-shelf camera by leveraging
+                    deep learning methods. This workshop aims to bring interdisciplinary researchers across
+                    computer vision, artificial intelligence, robotics, and human-computer interaction together
+                    to share current research achievements and discuss future research directions for human
+                    behavior and state understanding, and their potential application, especially in the wild
+                    environment. Specifically, we are interested in cognition-aware computing by integrating
+                    environment contexts and multi-modal nonverbal social cues not limited to gaze interaction, body
+                    language and para language. More importantly, we extend multi-modal human
+                    behavior research to infer the internal states of humans. This is a challenging problem yet
+                    important to realize effective interaction between humans and intelligent systems. </p>
+
+                <p style="text-indent: 50px;">It is desirable for intelligent systems like robots, virtual agents,
+                    human-machine
+                    interfaces to collaborate and interact seamlessly with humans in the era of Industry 5.0, where
+                    intelligent systems must work alongside humans to perform a variety of tasks anywhere at home,
+                    factories, offices, transit, etc. The underlying technologies to achieve efficient and intelligent
+                    collaboration between humans and ubiquitous intelligent systems can be realized by cooperative
+                    intelligence, spanning interdisciplinary studies between robotics, AI,
+                    human-robot and -computer interaction, computer vision, cognitive science, etc. </p>
+
+                <p style="text-indent: 50px;">One of the main considerations to achieve cooperative intelligence
+                    between humans and
+                    intelligent systems is to enable everyone and everything to know each other well, like how humans
+                    can
+                    trust or infer the implicit internal states like intention, emotion, and cognitive states of each
+                    other.
+                    The importance of empathy to facilitate human-robot interaction has been highlighted in previous
+                    studies
+                    . However, it is difficult for intelligent systems to estimate the internal states of humans
+                    because they are dependent on the complex social dynamics and environment contexts. This requires
+                    intelligent systems to be capable of sensing the multi-modal inputs,
+                    reasoning the underlying abstract knowledge, and generating the corresponding responses to
+                    collaborate
+                    and interact with humans.</p>
+
+                <p style="text-indent: 50px;"> There are many studies on estimating internal states of humans
+                    through measurements of wearables and
+                    non-invasive sensors, but it would be difficult to implement these solutions in the wild because of
+                    the
+                    additional sensors to be worn by humans. One promising solution is to use audiovisual data like
+                    nonverbal behavior cues consisting of gaze interaction, facial expression, body language and
+                    paralanguage to infer the internal states of humans. Researchers in cognitive and social psychology
+                    have
+                    long advocated that these nonverbal behaviors are subconsciously generated by humans and reflect the
+                    internal states of humans under different contexts. Some salient examples are the studies on emotion
+                    recognition using facial and body language in controlled environment. It remains an open question
+                    for
+                    intelligent systems to sense and recognize nonverbal cues and reason the rich underlying internal
+                    states
+                    of humans in the wild and noisy environments. </p>
+
+            </div>
+        </div-->
+
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="anchor" id="organizers"></a>
+                <h2 class="h1-bullet">Organizers</h2>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-xl-3 col-md-4 mb-4">
+                <div class="organizer-card shadow-sm">
+                    <h5 class="card-title">Jouh Yeong Chew</h5>
+                    <p class="card-text">Honda Research Institute Japan</p>
+                    <a href="mailto:jouhyeong.chew@jp.honda-ri.com">jouhyeong.chew@jp.honda-ri.com</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 mb-4">
+                <div class="organizer-card shadow-sm">
+                    <h5 class="card-title">Alan Sarkisian</h5>
+                    <p class="card-text">Honda Research Institute Japan</p>
+                    <a href="mailto:alan.sarkisian@jp.honda-ri.com">alan.sarkisian@jp.honda-ri.com</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 mb-4">
+                <div class="organizer-card shadow-sm">
+                    <h5 class="card-title">Christiane Wiebel-Herboth</h5>
+                    <p class="card-text">Honda Research Institute Europe</p>
+                    <a href="mailto:christiane.wiebel@honda-ri.de">christiane.wiebel@honda-ri.de</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 mb-4">
+                <div class="organizer-card shadow-sm">
+                    <h5 class="card-title">Christiane Attig</h5>
+                    <p class="card-text">Honda Research Institute Europe</p>
+                    <a href="mailto:christiane.attig@honda-ri.de">christiane.attig@honda-ri.de</a>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-4 mb-4">
+                <div class="organizer-card shadow-sm">
+                    <h5 class="card-title">Zhaobo Zheng</h5>
+                    <p class="card-text">Honda Research Institute USA</p>
+                    <a href="mailto:zhaobo_zheng@honda-ri.com">zhaobo_zheng@honda-ri.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-8 d-flex align-items-center">
+            <a target="_blank" href="https://www.jp.honda-ri.com/en/"
+                class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <img src="images/logo_hri.png" width="50" height="20">
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2025 Honda Research Institute Japan</span>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
